@@ -1,0 +1,42 @@
+Note: This PUF only includes data from states using the HealthCare.gov eligibility and enrollment platform. This includes states with a Federally-facilitated Marketplace (FFM) or a State-based Marketplace on the Federal Platform (SBM-FP). Data from states with a State-based Marketplace that operates on its own eligibility and enrollment platform are excluded.
+""
+Dates of Open Enrollment Periods (OEP)
+"2014: 10/1/2013 to 3/31/2014, with data reported through 4/19/2014
+2015: 11/15/2014 to 2/15/2015, with data reported through 2/22/2015
+2016: 11/1/2015 to 1/31/2016, with data reported through 2/1/2016
+2017: 11/1/2016 to 1/31/2017
+2018: 11/1/2017 to 12/15/2017, with data reported through 12/23/2017
+2019: 11/1/2018 to 12/15/2018, with data reported through 12/22/2018
+2020:  11/1/2019 to 12/15/2019, with data reported through 12/21/2019 (includes the OEP extension from 12/16/2019 to 12/18/2019)
+2021: 11/1/2020 to 12/15/2020, with data reported through 12/21/2020
+2022: 11/1/2021 to 01/15/2022
+2023: 11/1/2022 to 01/15/2023
+2024: 11/1/2023 to 01/16/2024"
+""
+Health Savings Account (HSA) Eligibility Methodology
+"1. To Determine HSA-eligibility at the Plan Variation Level: 
+For 2016 and prior, this PUF considers a plan variation to be HSA-eligible if the following conditions were met:
+     - The issuer indicated that the plan variation it was HSA-eligible
+     - The plan variation's deductible was greater than or equal to the Internal Revenue Service (IRS) HSA deductible minimum for the plan year
+     - The plan variation's maximum out-of-pocket (MOOP) was less than or equal to the IRS HSA MOOP maximum for the plan year
+     - The plan variation did not cover any of 18 standard benefits (those used in the Actuarial Value Calculator) before the deductible was met
+For 2017 and later, this PUF uses only the issuer's attestation of HSA-eligibility. Since 2017, CMS has validated this attestation against the deductible, MOOP, and coverage of standard benefits as described above prior to displaying plans on HealthCare.gov."
+"2. Enrollee-Weighted Plan Availability: This metric is calculated by first finding the percentage of HSA-eligible plan variations in each county (where the numerator and denominator both include all standard plans and  silver plan 73%, 87%, and 94% actuarial value (AV) cost sharing reduction (CSR) variations) and then taking the average of those county-level percentages, with each county weighted by its total plan selection count."
+3. Percent of Enrollees in HSA-Eligible Plans: This metric is equal to the number of plan selections in plans or plan variations that are HSA-eligible divided by the total number of plan selections. Plan selections in catastrophic plans and the zero cost sharing and limited cost sharing plan variations available to certain American Indians and Alaska Natives are included in the plan selection total but are not considered not to be HSA-eligible plan selections since they offer coverage before the deductible; catastrophic plans also have a MOOP greater than the IRS HSA MOOP maximum for all years except 2014. 
+""
+Deductible Methodology
+"1. If the in-network deductible equals “Not Applicable”, this PUF uses the combined in/out-of-network deductible; if both the in-network and combined in/out-of-network deductibles equal “Not Applicable,” this PUF considers the deductible to be $0."
+"2. This PUF considers a plan or plan variation to have a separate drug deductible if its “Medical & Drug Deductibles Integrated?” field equals “No” and it has a drug deductible greater than $0. If the in-network drug deductible equals “Not Applicable,” this PUF uses the combined in/out-of-network drug deductible; if both the in-network and combined in/out-of-network drug deductibles equal “Not Applicable,” this PUF considers the drug deductible to be $0 and the plan to have an integrated (medical & drug) deductible. "
+"3. The ""Medical Deductibles"" tables use the integrated (medical & drug) deductible when available and the medical deductible otherwise."
+"4. The ""Medical + Drug"" tables use the integrated (medical & drug) deductible when available and the sum of the separate medical and drug deductibles otherwise. "
+5. Plan selections qualifying for zero cost sharing CSRs due to American Indian or Alaska Native status are excluded in all deductible tables.
+6. Some issuers submitted catastrophic plan data with deductibles that were not in compliance with regulations in 2014 and 2015. This PUF uses the deductibles as submitted.
+""
+Standardized Plan Option (SPO) Selection Rates Methodology
+"1. Per 45 CFR 156.201, issuers offering qualified health plans (QHPs) through FFMs and SBM-FPs for plan year 2023 must offer standardized QHP options designed by HHS at every product network type (as described in the definition of “product” at 45 CFR 144.103), at every metal level except the non-expanded bronze metal level, and throughout every service area that they offer non-standardized QHP options in the individual market.  The plan year 2024 standardized plan option designs are found at 88 FR 25850-25851.  Issuers in Oregon are exempt from this requirement and instead must offer State-defined standardized plan options."
+"2. An ""expanded bronze"" plan is one that, per 45 CFR 156.140(c), either covers and pays for at least one major service, other than preventive services, before the deductible or meets the requirements to be a high deductible health plan within the meaning of section 223(c)(2) of the Internal Revenue Code (i.e., is an HSA-eligible plan). A ""non-expanded bronze"" plan is a bronze plan that does not meet the latter criteria."
+"3. Enrollment status are defined as follows:
+Active Re-enrollees - Count of unique consumers with a 2024 QHP selection where the consumer had 2023 QHP coverage through December 31, 2023. Consumers whose plan selection was the result of automatic re-enrollment or an automatic placement into a suggested alternate plan are not included in this count.
+Auto Re-Enrollees - Count of unique consumers  with a 2024 QHP selection who were automatically re-enrolled into a plan with their 2023 issuer as well as those who were placed in a suggested alternate plan with a different issuer because they did not have a Marketplace plan offered by their 2023 issuer available to them for 2024.
+New Consumers - Count of unique consumers with a 2024 QHP selection, where the consumer did not have 2023 QHP coverage through December 31, 2023. Consumers whose plan selection was the result of automatic re-enrollment or an automatic placement into a suggested alternate plan are not included in this count.
+Total - Count of unique consumers who selected a 2024 QHP, were automatically re-enrolled into a 2024 QHP, or were placed into a suggested alternate 2024 QHP (regardless of whether the consumer paid the premium) as of January 16, 2024. Count includes only consumers with non-canceled QHP policies that have an end date of January 31, 2024, or later."
